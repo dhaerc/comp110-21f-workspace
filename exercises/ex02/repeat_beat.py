@@ -5,6 +5,7 @@ __author__ = "730240220"
 
 beat: str = input("What beat do you want to repeat? ")
 repeats: int = int(input("How many times do you want to repeat it? "))
+
 i: int = 0
 beat_length: int = len(beat)
 additive: str = ""

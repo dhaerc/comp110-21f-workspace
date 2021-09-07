@@ -8,6 +8,7 @@ word: str = input("Enter a word: ")
 word_length: int = len(word)
 counter: int = 0
 total: int = 0 
+
 while counter < word_length:
     if word[counter] == letter:
         total = total + 1
