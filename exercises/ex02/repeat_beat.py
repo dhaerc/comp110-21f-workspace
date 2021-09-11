@@ -12,10 +12,10 @@ additive: str = ""
 
 if repeats <= 0:
     print("No beat...")
-else: 
+else:
     while i < beat_length:
-        output: str = beat[i] 
+        output: str = beat[i]
         additive = additive + output
         i = i + 1
 final: str = additive + " "
-print(final * (repeats - 1) + additive )
+print(final * (repeats - 1) + additive)

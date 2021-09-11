@@ -13,7 +13,7 @@ from random import randint
 
 print("Your fortune cookie says...")
 
-random_value: int = randint(1,3)
+random_value: int = randint(1, 4)
 
 if random_value == 1:
     print("New adventures and memories will be coming your way!")
@@ -21,5 +21,8 @@ else:
     if random_value == 2:
         print("Your luck will soon bring you to find new fortune!")
     else:
-        print("New love will soon bring new experiences.")
+        if random_value == 3:
+            print("New love will soon bring new experiences.")
+        else:
+            print("You will receive good news in the next week!")
 print("Now, go spread positive vibes!")
